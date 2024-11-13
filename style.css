@@ -1,0 +1,33 @@
+/* Hero Section Styling */
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background: url("images/hero.jpg") no-repeat center center/cover;
+  }
+  
+  .hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Adjust Card Image Heights */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Footer Icon Hover Effect */
+  footer a:hover {
+    color: #0d6efd;
+  }
+ 
